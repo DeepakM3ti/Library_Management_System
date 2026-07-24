@@ -1,0 +1,96 @@
+# College Library Management System - Sample Output
+
+Home Screen
+
+==============================================================
+         GOVERNMENT ENGINEERING COLLEGE LIBRARY
+==============================================================
+Librarian Name  : Mr. Ramesh Kumar
+Working Days    : Monday - Saturday
+Library Timings : 09:00 AM - 05:30 PM
+Maximum Books   : 6 Books
+Issue Duration  : 15 Days
+Late Fine       : ₹50 Per Day
+==============================================================
+
+============== MAIN MENU ==============
+1. Librarian Login
+2. Student Registration
+3. Student Login
+4. Exit
+```
+Student Registration
+
+===== STUDENT REGISTRATION =====
+
+Enter Student Name : Deepak
+Enter USN : 1GC21EC001
+Enter Department : ECE
+Enter Year : 4
+Enter Phone Number : 9876543210
+Enter Email : deepak@gmail.com
+
+Student Registered Successfully.
+USN      : 1GC21EC001
+Password : DeepC001
+
+Student Login
+===== STUDENT LOGIN =====
+
+Enter USN : 1GC21EC001
+Enter Password : DeepC001
+
+Login Successful.
+Welcome Deepak
+```
+
+View Books
+---------------------------------------------------------------------------------------------------------------
+ID       BOOK NAME                      AUTHOR               DEPT      RACK    TOTAL   AVAILABLE
+---------------------------------------------------------------------------------------------------------------
+101      Core Java                     Herbert Schildt      CSE       R1      10      10
+102      Advanced Java                 Herbert Schildt      CSE       R1       8       8
+103      Digital Electronics           Morris Mano          ECE       R2       6       6
+---------------------------------------------------------------------------------------------------------------
+```
+
+ Search Book
+
+1. Search by Book ID
+2. Search by Book Name
+3. Search by Author
+
+Enter Your Choice : 2
+
+Enter Book Name : Java
+
+Book Found Successfully.
+
+Issue Book
+Enter Student USN : 1GC21EC001
+
+Books Already Issued : 2
+You Can Issue        : 4
+
+How Many Books Do You Want To Issue : 2
+
+Enter Book ID : 101
+Book Issued Successfully.
+
+Enter Book ID : 105
+Book Issued Successfully.
+
+Return Book
+
+Enter Student USN : 1GC21EC001
+Enter Book ID : 101
+Enter Return Date : 2026-08-12
+
+Book Returned Successfully.
+
+Late Days : 5
+Fine : ₹250
+
+Exit
+Thank You For Visiting Our Library.
+```
